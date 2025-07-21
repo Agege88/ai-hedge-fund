@@ -3,6 +3,7 @@ from pydantic import BaseModel
 import httpx
 from typing import Dict, Any
 import asyncio
+import os
 
 router = APIRouter(prefix="/api", tags=["api-keys"])
 
